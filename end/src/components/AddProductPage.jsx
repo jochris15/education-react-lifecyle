@@ -40,12 +40,7 @@ export default function AddProductPage({ setPage }) {
         }
     }
 
-    function getFormData(fieldName, event) {
-        let value = event.target.value
-        if (fieldName === 'price' || fieldName === 'stock' || fieldName === 'categoryId') {
-            value = +event.target.value
-        }
-
+    function getFormData(fieldName, value) {
         setForm((prevData) => {
             return {
                 ...prevData,
@@ -116,7 +111,7 @@ export default function AddProductPage({ setPage }) {
                             type="text"
                             placeholder="Enter Name"
                             className="bg-white w-full px-3 py-2 border-2 border-black rounded-2xl shadow-[2px_2px_0px_rgba(0,0,0,1)]"
-                            onChange={(event) => getFormData("name", event)}
+                            onChange={(event) => getFormData("name", event.target.value)}
                         />
                     </div>
                     <div>
@@ -127,7 +122,7 @@ export default function AddProductPage({ setPage }) {
                             type="text"
                             placeholder="Enter Description"
                             className="bg-white w-full px-3 py-2 border-2 border-black rounded-2xl shadow-[2px_2px_0px_rgba(0,0,0,1)]"
-                            onChange={(event) => getFormData("description", event)}
+                            onChange={(event) => getFormData("description", event.target.value)}
                         />
                     </div>
                     <div>
@@ -138,7 +133,7 @@ export default function AddProductPage({ setPage }) {
                             type="number"
                             placeholder="Enter Price"
                             className="bg-white w-full px-3 py-2 border-2 border-black rounded-2xl shadow-[2px_2px_0px_rgba(0,0,0,1)]"
-                            onChange={(event) => getFormData("price", event)}
+                            onChange={(event) => getFormData("price", +event.target.value)}
                         />
                     </div>
                     <div>
@@ -149,7 +144,7 @@ export default function AddProductPage({ setPage }) {
                             type="number"
                             placeholder="Enter Stock"
                             className="bg-white w-full px-3 py-2 border-2 border-black rounded-2xl shadow-[2px_2px_0px_rgba(0,0,0,1)]"
-                            onChange={(event) => getFormData("stock", event)}
+                            onChange={(event) => getFormData("stock", +event.target.value)}
                         />
                     </div>
                     <div>
@@ -170,7 +165,7 @@ export default function AddProductPage({ setPage }) {
                         <select
                             className="bg-white w-full px-3 py-2 border-2 border-black rounded-2xl shadow-[2px_2px_0px_rgba(0,0,0,1)]"
                             name="category"
-                            onChange={(event) => getFormData("categoryId", event)}
+                            onChange={(event) => getFormData("categoryId", +event.target.value)}
                         >
                             {categories.map((c) => {
                                 return (
