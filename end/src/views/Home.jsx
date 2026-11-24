@@ -11,7 +11,7 @@ export default function Home({ setPage }) {
             <Navbar setPage={setPage} />
             {/* home */}
             <div id="PAGE-HOME" className="min-h-screen flex items-center justify-center">
-                <main className="my-5 bg-white grid grid-cols-4 gap-5">
+                <main className="my-5 bg-white grid grid-cols-6 gap-5">
                     {products.map((product, idx) => {
                         return <Card product={product} key={product.id} idx={idx} />
                     })}
