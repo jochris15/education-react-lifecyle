@@ -1,0 +1,170 @@
+[
+    {
+        "id": 181,
+        "title": "Terminator 2: Judgment Day",
+        "synopsis": "Set ten years after the events of the original, James Cameron’s classic sci-fi action flick tells the story of a second attempt to get the rid of rebellion leader John Connor, this time targeting the boy himself. However, the rebellion has sent a reprogrammed terminator to protect Connor.",
+        "trailerUrl": "https://www.youtube.com/watch?v=90EEFJqGlOM",
+        "imgUrl": "https://res.cloudinary.com/dpjqm8kkk/image/upload/v1723524679/hacktiv8/movies/terminator-2:-judgment-day-18a5ydxbzt1.jpg",
+        "rating": 8.116,
+        "genreId": 1,
+        "authorId": 6,
+        "createdAt": "2025-10-07T07:41:32.355Z",
+        "updatedAt": "2025-10-07T07:41:32.355Z",
+        "genre": {
+            "id": 1,
+            "name": "Action"
+        },
+        "author": {
+            "id": 6,
+            "username": "maya_sari",
+            "email": "maya.sari@gmail.com"
+        }
+    },
+    {
+        "id": 173,
+        "title": "Along with the Gods: The Last 49 Days",
+        "synopsis": "As the deceased soul Ja-hong and his three afterlife guardians prepare for their remaining trials for reincarnation, the guardians soon come face to face with the truth of their tragic time on Earth 1,000 years earlier.",
+        "trailerUrl": "https://www.youtube.com/watch?v=IxAXrPf57ZU",
+        "imgUrl": "https://res.cloudinary.com/dpjqm8kkk/image/upload/v1723524673/hacktiv8/movies/along-with-the-gods:-the-last-49-days-s0otsg07h0r.jpg",
+        "rating": 8.127,
+        "genreId": 1,
+        "authorId": 9,
+        "createdAt": "2025-10-07T07:41:32.264Z",
+        "updatedAt": "2025-10-07T07:41:32.264Z",
+        "genre": {
+            "id": 1,
+            "name": "Action"
+        },
+        "author": {
+            "id": 9,
+            "username": "farhan_alatas",
+            "email": "farhan.alatas@yahoo.co.id"
+        }
+    },
+    {
+        "id": 161,
+        "title": "Zack Snyder's Justice League",
+        "synopsis": "Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions.",
+        "trailerUrl": "https://www.youtube.com/watch?v=c-NotsoQyno",
+        "imgUrl": "https://res.cloudinary.com/dpjqm8kkk/image/upload/v1723524663/hacktiv8/movies/zack-snyder%27s-justice-league-nvn05ijcvlh.jpg",
+        "rating": 8.15,
+        "genreId": 1,
+        "authorId": 6,
+        "createdAt": "2025-10-07T07:41:32.122Z",
+        "updatedAt": "2025-10-07T07:41:32.122Z",
+        "genre": {
+            "id": 1,
+            "name": "Action"
+        },
+        "author": {
+            "id": 6,
+            "username": "maya_sari",
+            "email": "maya.sari@gmail.com"
+        }
+    },
+    {
+        "id": 146,
+        "title": "Scarface",
+        "synopsis": "After getting a green card in exchange for assassinating a Cuban government official, Tony Montana stakes a claim on the drug trade in Miami. Viciously murdering anyone who stands in his way, Tony eventually becomes the biggest drug lord in the state, controlling nearly all the cocaine that comes through Miami. But increased pressure from the police, wars with Colombian drug cartels and his own drug-fueled paranoia serve to fuel the flames of his eventual downfall.",
+        "trailerUrl": "https://www.youtube.com/watch?v=AU5jwUHIgMc",
+        "imgUrl": "https://res.cloudinary.com/dpjqm8kkk/image/upload/v1723524650/hacktiv8/movies/scarface-xhgecmw5cfr.jpg",
+        "rating": 8.166,
+        "genreId": 1,
+        "authorId": 7,
+        "createdAt": "2025-10-07T07:41:31.947Z",
+        "updatedAt": "2025-10-07T07:41:31.947Z",
+        "genre": {
+            "id": 1,
+            "name": "Action"
+        },
+        "author": {
+            "id": 7,
+            "username": "agus_wibowo",
+            "email": "agus.wibowo@outlook.co.id"
+        }
+    },
+    {
+        "id": 113,
+        "title": "Top Gun: Maverick",
+        "synopsis": "After more than thirty years of service as one of the Navy’s top aviators, and dodging the advancement in rank that would ground him, Pete “Maverick” Mitchell finds himself training a detachment of TOP GUN graduates for a specialized mission the likes of which no living pilot has ever seen.",
+        "trailerUrl": "https://www.youtube.com/watch?v=vNxu4_S9_Iw",
+        "imgUrl": "https://res.cloudinary.com/dpjqm8kkk/image/upload/v1723524622/hacktiv8/movies/top-gun:-maverick-wdz8dghrjl.jpg",
+        "rating": 8.211,
+        "genreId": 1,
+        "authorId": 9,
+        "createdAt": "2025-10-07T07:41:31.564Z",
+        "updatedAt": "2025-10-07T07:41:31.564Z",
+        "genre": {
+            "id": 1,
+            "name": "Action"
+        },
+        "author": {
+            "id": 9,
+            "username": "farhan_alatas",
+            "email": "farhan.alatas@yahoo.co.id"
+        }
+    },
+    {
+        "id": 110,
+        "title": "The Matrix",
+        "synopsis": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.",
+        "trailerUrl": "https://www.youtube.com/watch?v=d0XTFAMmhrE",
+        "imgUrl": "https://res.cloudinary.com/dpjqm8kkk/image/upload/v1723524620/hacktiv8/movies/the-matrix-u0yoycb4f2.jpg",
+        "rating": 8.216,
+        "genreId": 1,
+        "authorId": 6,
+        "createdAt": "2025-10-07T07:41:31.530Z",
+        "updatedAt": "2025-10-07T07:41:31.530Z",
+        "genre": {
+            "id": 1,
+            "name": "Action"
+        },
+        "author": {
+            "id": 6,
+            "username": "maya_sari",
+            "email": "maya.sari@gmail.com"
+        }
+    },
+    {
+        "id": 109,
+        "title": "Gladiator",
+        "synopsis": "In the year 180, the death of emperor Marcus Aurelius throws the Roman Empire into chaos.  Maximus is one of the Roman army's most capable and trusted generals and a key advisor to the emperor.  As Marcus' devious son Commodus ascends to the throne, Maximus is set to be executed.  He escapes, but is captured by slave traders.  Renamed Spaniard and forced to become a gladiator, Maximus must battle to the death with other men for the amusement of paying audiences.",
+        "trailerUrl": "https://www.youtube.com/watch?v=UgtUTpDlXYs",
+        "imgUrl": "https://res.cloudinary.com/dpjqm8kkk/image/upload/v1723524619/hacktiv8/movies/gladiator-u0199fn2n7.jpg",
+        "rating": 8.217,
+        "genreId": 1,
+        "authorId": 5,
+        "createdAt": "2025-10-07T07:41:31.518Z",
+        "updatedAt": "2025-10-07T07:41:31.518Z",
+        "genre": {
+            "id": 1,
+            "name": "Action"
+        },
+        "author": {
+            "id": 5,
+            "username": "rudi_hermawan",
+            "email": "rudi.hermawan@yahoo.co.id"
+        }
+    },
+    {
+        "id": 104,
+        "title": "Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train",
+        "synopsis": "Tanjiro Kamado, joined with Inosuke Hashibira, a boy raised by boars who wears a boar's head, and Zenitsu Agatsuma, a scared boy who reveals his true power when he sleeps, boards the Infinity Train on a new mission with the Fire Hashira, Kyojuro Rengoku, to defeat a demon who has been tormenting the people and killing the demon slayers who oppose it!",
+        "trailerUrl": "https://www.youtube.com/watch?v=XbTSLJ62YEM",
+        "imgUrl": "https://res.cloudinary.com/dpjqm8kkk/image/upload/v1723524615/hacktiv8/movies/demon-slayer-kimetsu-no-yaiba-the-movie:-mugen-train-2whjnhsmr3p.jpg",
+        "rating": 8.223,
+        "genreId": 1,
+        "authorId": 9,
+        "createdAt": "2025-10-07T07:41:31.460Z",
+        "updatedAt": "2025-10-07T07:41:31.460Z",
+        "genre": {
+            "id": 1,
+            "name": "Action"
+        },
+        "author": {
+            "id": 9,
+            "username": "farhan_alatas",
+            "email": "farhan.alatas@yahoo.co.id"
+        }
+    }
+]

@@ -1,9 +1,5 @@
-import { useState } from "react"
-import Navbar from './Navbar'
-import categoriesJson from './assets/categories.json'
-
-export default function AddProductPage({ setPage }) {
-    const [categories, setCategories] = useState(categoriesJson)
+import Navbar from '../components/Navbar'
+export default function AddProduct({ setPage }) {
 
     return (
         <>
@@ -19,7 +15,7 @@ export default function AddProductPage({ setPage }) {
                         <input
                             type="text"
                             placeholder="Enter Name"
-                            className="bg-white rounded-2xl w-full px-3 py-2 border-2 border-black shadow-[2px_2px_0px_rgba(0,0,0,1)]"
+                            className="bg-white w-full px-3 py-2 border-2 border-black rounded-2xl shadow-[2px_2px_0px_rgba(0,0,0,1)]"
                         />
                     </div>
                     <div>
@@ -59,7 +55,7 @@ export default function AddProductPage({ setPage }) {
                         <input
                             type="text"
                             placeholder="Enter Image URL"
-                            className="bg-white w-full px-3 py-2 border-2 border-black rounded-2xl shadow-[2px_2px_0px_rgba(0,0,0,1)]"
+                            className="bg-white rounded-2xl w-full px-3 py-2 border-2 border-black rounded-2xl shadow-[2px_2px_0px_rgba(0,0,0,1)]"
                         />
                     </div>
                     <div>
@@ -69,13 +65,8 @@ export default function AddProductPage({ setPage }) {
                         <select
                             className="bg-white w-full px-3 py-2 border-2 border-black rounded-2xl shadow-[2px_2px_0px_rgba(0,0,0,1)]"
                             name="category"
-                            id=""
                         >
-                            {categories.map((c) => {
-                                return (
-                                    <option key={c.id} value={c.id}>{c.name}</option>
-                                )
-                            })}
+                            <option value='test'>test</option>
                         </select>
                     </div>
                 </div>
