@@ -1,11 +1,4 @@
-# REACT HOOKS & LIFECYCLE
-
-## React Hooks
-Apa itu `React Hooks`? `React Hooks` adalah sebuah fungsi yang disediakan oleh React untuk menggunakan fitur - fitur tertentu seperti contohnya membuat `state variabel`. `React Hooks` biasanya diawali dengan kata `use` seperti contohnya `useState`, `useEffect`, `useContext`, dll.
-
-Aturan penggunaan `React Hooks` adalah:
-- hanya bisa digunakan di dalam function component
-- hanya bisa digunakan di level atas function component, tidak boleh digunakan di dalam kondisi, loop, atau nested function
+# REACT LIFECYCLE
 
 ## React Lifecyle
 Dalam react, ada beberapa tahapan dalam siklus hidup sebuah komponen, yaitu:
