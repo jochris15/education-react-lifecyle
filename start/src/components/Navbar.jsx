@@ -9,7 +9,7 @@ export default function Navbar({ setPage }) {
                             <span>Home</span>
                         </a>
                         <a onClick={() => setPage("add")} className="text-2xl font-bold px-6 cursor-pointer">
-                            <span>Add Product</span>
+                            <span>Add Movie</span>
                         </a>
                     </div>
                     <a onClick={() => setPage("login")} className="text-2xl font-bold px-6 cursor-pointer text-white">

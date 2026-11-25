@@ -20,7 +20,7 @@ export default function Login({ setPage }) {
                     <form onSubmit={handleLogin}>
                         <div className="mb-4">
                             <label htmlFor="email" className="block text-sm font-medium ">
-                                Email Address : <b>{email}</b>
+                                Email Address
                             </label>
                             <input
                                 type="email"
@@ -33,7 +33,7 @@ export default function Login({ setPage }) {
                         </div>
                         <div className="mb-4">
                             <label htmlFor="password" className="block text-sm font-medium">
-                                Password : <b>{password}</b>
+                                Password
                             </label>
                             <input
                                 type="password"

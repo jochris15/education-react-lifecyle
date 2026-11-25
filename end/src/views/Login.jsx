@@ -1,14 +1,45 @@
+import axios from "axios"
 import { useState } from "react"
+import baseUrl from "../constant/baseUrl"
+import Toastify from 'toastify-js'
 
 export default function Login({ setPage }) {
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
 
-    function handleLogin(e) {
+    async function handleLogin(e) {
         e.preventDefault()
-        // proses login
-        console.log(email, password);
-        setPage("home")
+        try {
+            const { data } = await axios.post(`${baseUrl}/apis/auth/login`, { email, password })
+            localStorage.setItem("token", data.data.token)
+
+            Toastify({
+                text: "Login Succeed",
+                duration: 3000,
+                newWindow: true,
+                close: true,
+                gravity: "bottom", // `top` or `bottom`
+                position: "right", // `left`, `center` or `right`
+                stopOnFocus: true, // Prevents dismissing of toast on hover
+                style: {
+                    background: "#008000",
+                },
+            }).showToast();
+            setPage("home")
+        } catch (error) {
+            Toastify({
+                text: error.response.data.message,
+                duration: 3000,
+                newWindow: true,
+                close: true,
+                gravity: "bottom", // `top` or `bottom`
+                position: "right", // `left`, `center` or `right`
+                stopOnFocus: true, // Prevents dismissing of toast on hover
+                style: {
+                    background: "#FF0000",
+                },
+            }).showToast();
+        }
     }
 
     return (
@@ -20,7 +51,7 @@ export default function Login({ setPage }) {
                     <form onSubmit={handleLogin}>
                         <div className="mb-4">
                             <label htmlFor="email" className="block text-sm font-medium ">
-                                Email Address : <b>{email}</b>
+                                Email Address
                             </label>
                             <input
                                 type="email"
@@ -33,7 +64,7 @@ export default function Login({ setPage }) {
                         </div>
                         <div className="mb-4">
                             <label htmlFor="password" className="block text-sm font-medium">
-                                Password : <b>{password}</b>
+                                Password
                             </label>
                             <input
                                 type="password"

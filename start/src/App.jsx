@@ -1,7 +1,8 @@
 import { useState } from "react"
 import Home from "./views/Home"
 import Login from "./views/Login"
-import AddProduct from "./views/AddProduct"
+import AddMovie from "./views/AddMovie"
+
 
 function App() {
   const [page, setPage] = useState("login")
@@ -11,7 +12,7 @@ function App() {
       <div className="p-5">
         {page === 'login' && <Login setPage={setPage} />}
         {page === 'home' && <Home setPage={setPage} />}
-        {page === 'add' && <AddProduct setPage={setPage} />}
+        {page === 'add' && <AddMovie setPage={setPage} />}
       </div>
     </>
   )
